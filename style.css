@@ -29,3 +29,18 @@ nav a {
     border-bottom: 3px solid; margin-top: 10px;
 }
 
+.backroundimage {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://eruptr.com/wp-content/uploads/2020/04/Team-collaboration-office-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    height: 300px;
+    width: 100%;
+}
+
+
