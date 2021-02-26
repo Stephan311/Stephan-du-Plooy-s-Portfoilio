@@ -91,6 +91,24 @@ img {
     width: 1000px;
 }
 
+main {
+    display: inline;
+    float: left;
+}
+
+.secondheader {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-left: 125px;
+    margin-top: 50px;
+    font-size: 80px;
+    text-align:end;
+    display: block;
+    border-right: solid 15px rgb(0, 204, 255); 
+    padding-right: 30px; padding-bottom: 80px;
+    padding-left: 25px;
+}
+
 
 
 
