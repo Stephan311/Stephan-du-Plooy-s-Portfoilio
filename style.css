@@ -43,4 +43,53 @@ img {
     width: 100%;
 }
 
+.container1 {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(0, 204, 255); width: 300px; padding: 10px;
+    font-size: 40px;
+}
+
+.aboutme {
+    display:inline-block;
+}
+
+.firstheader {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 80px;
+    text-align:end;
+    display: block;
+    border-right: solid 4px rgb(0, 204, 255); 
+    padding-right: 16px;
+}
+
+.firstheader, .p1 {
+    display: inline-block;
+    float: left;
+}
+.p1 {
+    margin-left: 160px;
+    margin-top: 50px ;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+
+
+
 
