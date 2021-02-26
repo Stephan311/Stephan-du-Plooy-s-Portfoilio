@@ -71,8 +71,9 @@ img {
     font-size: 80px;
     text-align:end;
     display: block;
-    border-right: solid 4px rgb(0, 204, 255); 
-    padding-right: 16px;
+    border-right: solid 15px rgb(0, 204, 255); 
+    padding-right: 30px; padding-bottom: 80px;
+    padding-left: 25px;
 }
 
 .firstheader, .p1 {
@@ -80,12 +81,14 @@ img {
     float: left;
 }
 .p1 {
-    margin-left: 160px;
+    margin-left: 40px;
     margin-top: 50px ;
-    text-align: center;
+    text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: 600;
+    line-height: 120%;
+    font-size: 14px;
+    width: 1000px;
 }
 
 
