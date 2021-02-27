@@ -135,6 +135,10 @@ img {
     margin: 0 auto;
    }
 
+   .box11 {
+       width: 100%;
+   }
+
    .box1, .box4, .box5, .box6, .box7, .box8 {
    display: flex;
    margin-right: -1.5rem;
@@ -235,9 +239,34 @@ img {
        padding: 2rem;
    }
 
-   .contact {
-       text-align: center;
-       
+   .contactheader, .contact {
+       margin-left: auto;
+       margin-right: auto;
+   }
+
+   .contactheader {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+    font-size: 80px;
+    display: block;
+    text-align: center;
+    border-bottom: solid 15px rgb(0, 204, 255); 
+   }
+
+   .contactparagraph {
+       font-size: 20px;
+       font-weight: 600;
+       margin-top: 0px;
+       padding-bottom: 20px;
+   }
+
+   .footertext {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: -30px;
    }
    
 
