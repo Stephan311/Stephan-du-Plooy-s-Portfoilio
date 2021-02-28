@@ -112,6 +112,7 @@ img {
     font-weight: 400;
     line-height: 150%;
     font-size: 20px;
+    margin-bottom: 0%;
 }
 
 .work {
@@ -124,6 +125,8 @@ img {
 }
 
 .portfoilio {
+    flex-direction: row;
+    flex-wrap:wrap ;
     color: white;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -288,20 +291,28 @@ img {
 
 
 
-   @media screen and (max-width: 768px) {
-       main,
-       nav ul,
-       nav a,
-       header,
-       .work,
-       .portfoilio,
-       .boxes,
-       .boxes2,
-       .boxes3 {
-           flex-direction: column;
-           text-align: center;
-       }
-   }   
+
+   @media screen and (max-width: 640px) {
+    .boxes,
+    .boxes2,
+    .boxes3 {
+        flex-direction: column;
+        text-align: center;
+}   
+
+@media screen and (max-width: 768px) {
+    main,
+    nav ul,
+    nav a,
+    header,
+    .work,
+    .portfoilio,
+    .boxes,
+    .boxes2,
+    .boxes3  {
+        flex-direction: column;
+        text-align: center;
+    }
 
    @media screen and (max-width: 768px) {
        .box4,
