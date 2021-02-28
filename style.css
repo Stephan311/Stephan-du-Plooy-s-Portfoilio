@@ -18,7 +18,7 @@ header {
 }
 
 
-/*Sets primary style for body*/
+/*Sets primary style for name heading*/
 h1 {
     display: flex;
     color: white;
@@ -28,6 +28,8 @@ h1 {
     font-size: 200%;
 }
 
+
+/*Sets style and sizing for nav links list*/
 nav ul {
     text-decoration: none;
     display: flex;
@@ -39,6 +41,8 @@ nav ul {
     min-width: 300px;
 }
 
+
+/*Sets styling for nav link text*/
 nav a {
     display: flex;
     flex-wrap: wrap;
@@ -48,11 +52,15 @@ nav a {
     font-weight:bold;
 }
 
+
+/*Sets display for main section of the website, everything from the nav and down*/
 main {
     display: flex;
     flex-wrap: wrap;
 }
 
+
+/*Sets styling and size for homepage image*/
 .backroundimage {
     display: flex;
     height: 800px;
@@ -63,6 +71,8 @@ main {
     background-position: center;
 }
 
+
+/*Sets image fit*/
 img {
     display: flex;
     height: 300px;
@@ -70,13 +80,17 @@ img {
     background-size: cover;
 }
 
+
+/*Sets position for the home page image */
 .container1 {
-    display: fl;
+    display: flex;
     position: relative;
     text-align: center;
     color: black;
 }
 
+
+/*Sets position and style for "my portfolio" heading*/
 .bottomright {
     color: white;
     position: absolute;
@@ -88,6 +102,8 @@ img {
     font-size: 40px;
 }
 
+
+/*Sets style for "About me" heading*/
 .firstheader {
     color: white;
     text-align: center;
@@ -101,11 +117,16 @@ img {
     border-bottom: solid 15px rgb(60, 0, 255); width: 30%; padding-top: 5px;
 }
 
+
+/*Optimizes the home page image to fit with all screen sizes*/
 img {
     max-width: 100%;
     height: auto;
 }
 
+
+
+/*Sets styling for "about me" paragraph*/
 .p1 {
     color: white;
     margin-left: 100px;
@@ -119,6 +140,8 @@ img {
     margin-bottom: 0%;
 }
 
+
+/*Sets fit and position of the portfolio section*/
 .work {
     flex-direction: row;
     flex-wrap: wrap;
@@ -128,6 +151,8 @@ img {
 
 }
 
+
+/*Sets styling and position for "work" heading*/
 .portfoilio {
     flex-direction: row;
     flex-wrap:wrap ;
@@ -143,6 +168,8 @@ img {
     border-bottom: solid 15px rgb(60, 0, 255); width: 26vh; padding-top: 5px;
 }
 
+
+/*Sets stying and fit for the portfolio section*/
 .boxes, .boxes2, .boxes3 {
     text-decoration: none;
     display: flex;
@@ -156,6 +183,7 @@ img {
    }
    
 
+/*Sets position and styling for each individual card*/
    .box1, .box4, .box5, .box6, .box7, .box8 {
    display: flex;
    margin-right: -1.5rem;
@@ -173,6 +201,8 @@ img {
    background-size: cover;
    }
 
+   
+/*Sets style and position for the 1st portfolio piece, which is bigger than the rest*/
    .box1 {
        text-decoration: none;
        display: flex;
@@ -185,6 +215,8 @@ img {
        height: 500px;
    }
 
+   
+/*Sets primary styling and position for the heading and text within the 1st portfoilio piece*/
    .Horiseon { 
        color: white;
        text-decoration: none;
@@ -194,6 +226,7 @@ img {
        background: rgb(60, 0, 2550); width: 320px; padding-left: 10px; padding: 10px ;
    }
 
+/*Sets styling for the paragraph in the Horiseon card*/
    .p2 {
        text-decoration: none;
        color: white;
@@ -205,6 +238,8 @@ img {
        background:rgb(60, 0, 255); width: 320px; padding-left: 10px; padding: 10px ;
    }
 
+   
+/*Sets the styling for the headings inside all of the other cards */
    .eic, .mccomb {
        color: white;
        font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -214,6 +249,8 @@ img {
 
    }
 
+   
+/*Sets the styling for all of the parapgraphs in the other cards.*/
    .p3 {
        color: white;
        position: relative;
@@ -223,23 +260,29 @@ img {
        background: rgb(60, 0, 255); width: 200px; padding: 10px;
    }
 
+   
+/*Sets backround image for ecoicegrip card*/
    .box4 {
        background-image: url(web1.JPG);
 
    }
 
+   /*Sets backround image for the mccomb card*/
    .box5 {
     background-image: url(web3.JPG);
    }
 
+   /*Sets backround image for the axius global card*/
    .box6 {
     background-image: url(web4.JPG);
    }
 
+   /*Sets backround image for MM card*/
    .box7 {
     background-image: url(web5.JPG);
    }
 
+   /*Sets backround image for ecoicegrip card*/
    .box4, .box5, .box6, .box7 {
        width: 44%;
        height: 300px;
@@ -250,12 +293,14 @@ img {
        padding: 2rem;
    }
 
+   /*Sets position for the "contact me" heading and contact secion */
    .contactheader, .contact {
        margin-left: auto;
        margin-right: auto;
    }
 
-   .contactheader {
+   /*Sets styling for the "contact me" header"*/
+   .contactheader { 
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
@@ -266,6 +311,7 @@ img {
     border-bottom: solid 15px rgb(60, 0, 255); 
    }
 
+   /*Sets styling for contact links*/
    .contactparagraph {
        text-decoration: none;
        color: white;
@@ -275,11 +321,13 @@ img {
        padding-bottom: 20px;
    }
 
+   /*Sets text colors for the LinkedIn and Email links*/
    .contactlink {
        color: white;
        text-decoration: none;
    }
 
+   /*Sets styling for copyright paragraph*/
    .footertext {
     color: white;
     margin-left: auto;
@@ -289,12 +337,13 @@ img {
     padding-top: -30px;
    }
    
+    /*Sets hover effect for the portfolio cards*/
   .box1:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover {
       opacity: 50%;
   }
 
   
-
+ /*Optimizes for different screen sizes*/
 @media screen and (max-width: 768px) {
     main,
     nav ul,
@@ -309,12 +358,13 @@ img {
         text-align: center;
     }
 
+     /*Optimizes card width for narrower screens*/
    @media screen and (max-width: 768px) {
        .box4,
        .box5,
        .box6,
        .box7 {
-           width: 90%;
+           width: 100vw;
        }
    }
 
