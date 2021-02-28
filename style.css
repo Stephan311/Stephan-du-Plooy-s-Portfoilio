@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: hsla(0, 0%, 0%, 0.714);
+    background-color: hsla(0, 0%, 0%, 0.945);
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
@@ -42,7 +42,6 @@ nav a {
     margin: 10px;
     color: rgb(255, 255, 255);
     font-weight:bold;
-    border-bottom: 3px solid; margin-top: 10px;
 }
 
 main {
@@ -64,6 +63,7 @@ img {
     display: flex;
     height: 300px;
     width: 100%;
+    background-size: cover;
 }
 
 .container1 {
@@ -86,17 +86,20 @@ img {
 
 .firstheader {
     color: white;
-    width: 100%;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-right: auto;
-    margin-left: auto;
     font-weight: 700;
+    margin-left: 100px;
     margin-top: 50px;
     font-size: 80px;
-    text-align: center;
+    text-align: left;
     display: block;
-    border-bottom: solid 15px rgb(60, 0, 255); width: 15%; padding-top: 5px;
+    border-bottom: solid 15px rgb(60, 0, 255); width: 30%; padding-top: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .p1 {
@@ -112,20 +115,25 @@ img {
 }
 
 .work {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-left: 100px;
+    display: block;
+
 }
 
 .portfoilio {
     color: white;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
+    margin-left: 0px;
     margin-top: 50px;
     font-size: 80px;
-    text-align: center;
+    text-align: left;
     display: block;
-    border-bottom: solid 15px rgb(60, 0, 255); 
+    border-bottom: solid 15px rgb(60, 0, 255); width: 26vh; padding-top: 5px;
 }
 
 .boxes, .boxes2, .boxes3 {
@@ -252,11 +260,17 @@ img {
    }
 
    .contactparagraph {
+       text-decoration: none;
        color: white;
        font-size: 20px;
        font-weight: 600;
        margin-top: 0px;
        padding-bottom: 20px;
+   }
+
+   .contactlink {
+       color: white;
+       text-decoration: none;
    }
 
    .footertext {
@@ -274,13 +288,13 @@ img {
 
 
 
-
-
-   @media screen and (max-width: 765px) {
+   @media screen and (max-width: 768px) {
        main,
        nav ul,
        nav a,
        header,
+       .work,
+       .portfoilio,
        .boxes,
        .boxes2,
        .boxes3 {
@@ -297,3 +311,7 @@ img {
            width: 90%;
        }
    }
+
+  
+
+
