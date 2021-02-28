@@ -1,8 +1,10 @@
 
 
 body {
+    background-color: hsla(0, 0%, 0%, 0.714);
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
 }
 
 header {
@@ -10,18 +12,20 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: #000000b6;
+    background-color: hsla(0, 0%, 0%, 0.714);
 }
 
 h1 {
     display: flex;
-    background-color: rgb(0, 204, 255); padding: 15px;
+    color: white;
+    background-color:rgb(60, 0, 255); padding: 15px;
     padding-left: 30px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 200%;
 }
 
 nav ul {
+    text-decoration: none;
     display: flex;
     flex-wrap: wrap;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -36,7 +40,7 @@ nav a {
     flex-wrap: wrap;
     text-decoration: none;
     margin: 10px;
-    color: rgb(0, 204, 255);
+    color: rgb(255, 255, 255);
     font-weight:bold;
     border-bottom: 3px solid; margin-top: 10px;
 }
@@ -70,22 +74,20 @@ img {
 }
 
 .bottomright {
+    color: white;
     position: absolute;
     bottom: 20px;
     right: 40px;
     font-weight: 700;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(0, 204, 255); width: 300px; padding: 10px;
+    background-color: rgb(60, 0, 255); width: 300px; padding: 10px;
     font-size: 40px;
 }
 
-.aboutme {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .firstheader {
+    color: white;
+    width: 100%;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-right: auto;
     margin-left: auto;
@@ -94,18 +96,19 @@ img {
     font-size: 80px;
     text-align: center;
     display: block;
-    border-bottom: solid 15px rgb(0, 204, 255);
+    border-bottom: solid 15px rgb(60, 0, 255); width: 15%; padding-top: 5px;
 }
 
 .p1 {
+    color: white;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 50px ;
-    text-align: center;
+    text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 600;
-    line-height: 120%;
-    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 20px;
 }
 
 .work {
@@ -115,16 +118,18 @@ img {
 }
 
 .portfoilio {
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
     margin-top: 50px;
     font-size: 80px;
     text-align: center;
     display: block;
-    border-bottom: solid 15px rgb(0, 204, 255); 
+    border-bottom: solid 15px rgb(60, 0, 255); 
 }
 
 .boxes, .boxes2, .boxes3 {
+    text-decoration: none;
     display: flex;
     margin: 2rem auto;
     flex-direction: row;
@@ -134,10 +139,7 @@ img {
     height: 100%;
     margin: 0 auto;
    }
-
-   .box11 {
-       width: 100%;
-   }
+   
 
    .box1, .box4, .box5, .box6, .box7, .box8 {
    display: flex;
@@ -151,11 +153,13 @@ img {
    margin-left: 20px;
    margin-right: 20px;
    padding: 20px, 20px, 20px, 20px;
-   border: solid purple;
+   border: solid rgb(60, 0, 255); 
+   border-width: 20px;
    background-size: cover;
    }
 
    .box1 {
+       text-decoration: none;
        display: flex;
        flex-direction: column;
        justify-content: flex-start;
@@ -167,24 +171,23 @@ img {
    }
 
    .Horiseon { 
+       color: white;
+       text-decoration: none;
        font-family: Verdana, Geneva, Tahoma, sans-serif;
        margin-top: 400px;
        font-size: 60px;
-       background: purple; width: 320px; padding-left: 10px; padding: 10px ;
+       background: rgb(60, 0, 2550); width: 320px; padding-left: 10px; padding: 10px ;
    }
 
    .p2 {
+       text-decoration: none;
        color: white;
        position: relative;
        font-family: Verdana, Geneva, Tahoma, sans-serif;
        margin-top: -60px;
        font-size: 30px;
        margin-bottom: 0px;
-       background:purple; width: 320px; padding-left: 10px; padding: 10px ;
-   }
-
-   .hor {
-       color:white ;
+       background:rgb(60, 0, 255); width: 320px; padding-left: 10px; padding: 10px ;
    }
 
    .eic, .mccomb {
@@ -192,15 +195,8 @@ img {
        font-family: Verdana, Geneva, Tahoma, sans-serif;
        margin-top: 250px;
        font-size: 30px;
-       background: purple; width: 200px; padding: 10px;
+       background: rgb(60, 0, 255); width: 200px; padding: 10px;
 
-   }
-   .eiclink {
-       color: white;
-   }
-
-   .mccomblink {
-       color: white;
    }
 
    .p3 {
@@ -209,7 +205,7 @@ img {
        margin-top: -35px;
        margin-bottom: 0px;
        font-size: 20px;
-       background: purple; width: 200px; padding: 10px;
+       background: rgb(60, 0, 255); width: 200px; padding: 10px;
    }
 
    .box4 {
@@ -245,16 +241,18 @@ img {
    }
 
    .contactheader {
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
     margin-top: 50px;
     font-size: 80px;
     display: block;
     text-align: center;
-    border-bottom: solid 15px rgb(0, 204, 255); 
+    border-bottom: solid 15px rgb(60, 0, 255); 
    }
 
    .contactparagraph {
+       color: white;
        font-size: 20px;
        font-weight: 600;
        margin-top: 0px;
@@ -262,6 +260,7 @@ img {
    }
 
    .footertext {
+    color: white;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -269,6 +268,13 @@ img {
     padding-top: -30px;
    }
    
+  .box1:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover {
+      opacity: 50%;
+  }
+
+
+
+
 
    @media screen and (max-width: 765px) {
        main,
