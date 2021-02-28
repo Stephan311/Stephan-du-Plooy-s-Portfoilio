@@ -1,5 +1,5 @@
 
-
+/*Sets primary style for body*/
 body {
     background-color: hsla(0, 0%, 0%, 0.945);
     margin: 0;
@@ -7,6 +7,8 @@ body {
     text-decoration: none;
 }
 
+
+/*Sets style for page header/nav bar*/
 header {
     display: flex;
     justify-content: space-between;
@@ -15,6 +17,8 @@ header {
     background-color: hsla(0, 0%, 0%, 0.714);
 }
 
+
+/*Sets primary style for body*/
 h1 {
     display: flex;
     color: white;
@@ -289,16 +293,7 @@ img {
       opacity: 50%;
   }
 
-
-
-
-   @media screen and (max-width: 768px) {
-    .boxes,
-    .boxes2,
-    .boxes3 {
-        flex-direction: column;
-        text-align: center;
-}   
+  
 
 @media screen and (max-width: 768px) {
     main,
