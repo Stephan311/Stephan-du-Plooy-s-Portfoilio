@@ -16,7 +16,7 @@ Features:
 
 Tests: Only test that I did was run the website on different screen sizes and browsers, and tested the sizing usign Chrome Dev tools to make sure the applciation was optimzied for every size.
 
-Link to application:
+Link to application: https://stephan311.github.io/Stephan-du-Plooy-s-Portfoilio/
 
-Link to Github Repo: 
+Link to Github Repo: https://github.com/Stephan311/Stephan-du-Plooy-s-Portfoilio.git
 
