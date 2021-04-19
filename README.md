@@ -20,3 +20,5 @@ Link to application: https://stephan311.github.io/Stephan-du-Plooy-s-Portfoilio/
 
 Link to Github Repo: https://github.com/Stephan311/Stephan-du-Plooy-s-Portfoilio.git
 
+Screenshot of program: ![alalalalaaaa](https://user-images.githubusercontent.com/76667667/115166480-6e7f6480-a081-11eb-9fd8-02d36aa71965.JPG)
+
