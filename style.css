@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+  }
 /*Sets primary style for body*/
 body {
     background-color: hsla(0, 0%, 0%, 0.945);
@@ -211,8 +213,9 @@ img {
        min-height: 100%;
        padding: 2rem;
        width: 90%;
-       background-image: url(web2.JPG);
+       background-image: url(storeeeex.JPG);
        height: 500px;
+       margin-bottom: 100px;
    }
 
    
@@ -223,7 +226,7 @@ img {
        font-family: Verdana, Geneva, Tahoma, sans-serif;
        margin-top: 400px;
        font-size: 60px;
-       background: rgb(60, 0, 2550); width: 320px; padding-left: 10px; padding: 10px ;
+       background: rgb(60, 0, 2550); width:600px; padding-left: 10px; padding: 10px ;
    }
 
 /*Sets styling for the paragraph in the Horiseon card*/
@@ -235,7 +238,8 @@ img {
        margin-top: -60px;
        font-size: 30px;
        margin-bottom: 0px;
-       background:rgb(60, 0, 255); width: 320px; padding-left: 10px; padding: 10px ;
+       background:rgb(60, 0, 255); width: 600px; padding-left: 10px; padding: 10px ;
+       /* width: 100%; */
    }
 
    
@@ -274,7 +278,7 @@ img {
 
    /*Sets backround image for the axius global card*/
    .box6 {
-    background-image: url(llalalalalala.JPG);
+    background-image: url(nottakerrrr.JPG);
    }
 
    /*Sets backround image for MM card*/
@@ -336,6 +340,10 @@ img {
     padding-bottom: 20px;
     padding-top: -30px;
    }
+
+   .box1div {
+       width: 100%;
+   }
    
     /*Sets hover effect for the portfolio cards*/
   .box1:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover {
@@ -368,3 +376,4 @@ img {
        }
    }
 
+}
