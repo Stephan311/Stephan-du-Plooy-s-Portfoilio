@@ -242,6 +242,18 @@ img {
        /* width: 100%; */
    }
 
+   .p21 {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1200px;
+    font-size: 30px;
+    margin-bottom: 0px;
+    background:rgb(255, 0, 128); width: 600px; padding-right: 10px; padding-bottom: 10px ; padding-left: 10px;
+    /* width: 100%; */
+}
+
    
 /*Sets the styling for the headings inside all of the other cards */
    .eic, .mccomb {
@@ -264,16 +276,28 @@ img {
        background: rgb(60, 0, 255); width: 200px; padding: 10px;
    }
 
+    .p31 {
+       color: white;
+       position: relative;
+       margin-top: 0px;
+       margin-bottom: 0px;
+       font-size: 20px;
+       background: rgb(255, 0, 128); width: 200px; padding: 10px;
+   }
+
+
    
 /*Sets backround image for ecoicegrip card*/
    .box4 {
        background-image: url(Capture.JPG);
+       margin-top: 20px;
 
    }
 
    /*Sets backround image for the mccomb card*/
    .box5 {
     background-image: url(dogooooooo.JPG);
+    margin-bottom: 50px;
    }
 
    /*Sets backround image for the axius global card*/
@@ -299,6 +323,7 @@ img {
 
    /*Sets position for the "contact me" heading and contact secion */
    .contactheader, .contact {
+       margin-top: 40px;
        margin-left: auto;
        margin-right: auto;
    }
@@ -345,12 +370,12 @@ img {
        width: 100%;
    }
    
-    /*Sets hover effect for the portfolio cards*/
+    /* Sets hover effect for the portfolio cards
   .box1:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover {
       opacity: 50%;
   }
 
-  
+   */
  /*Optimizes for different screen sizes*/
 @media screen and (max-width: 768px) {
     main,
